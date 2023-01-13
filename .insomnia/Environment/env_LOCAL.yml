@@ -1,0 +1,14 @@
+_id: env_LOCAL
+type: Environment
+parentId: env_bbe70e3270368aa0197f796de396884c69708dde
+modified: 1673549632267
+created: 1673549632267
+name: LOCAL
+data:
+  env: http://localhost:8443
+dataPropertyOrder:
+  "&":
+    - env
+color: "#000000"
+isPrivate: false
+metaSortKey: 0

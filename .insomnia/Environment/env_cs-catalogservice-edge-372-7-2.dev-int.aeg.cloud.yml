@@ -1,0 +1,14 @@
+_id: env_cs-catalogservice-edge-372-7-2.dev-int.aeg.cloud
+type: Environment
+parentId: env_bbe70e3270368aa0197f796de396884c69708dde
+modified: 1673549647511
+created: 1673549647511
+name: d-372-7-2
+data:
+  env: https://cs-catalogservice-edge-372-7-2.dev-int.aeg.cloud
+dataPropertyOrder:
+  "&":
+    - env
+color: "#FA2204"
+isPrivate: false
+metaSortKey: 3

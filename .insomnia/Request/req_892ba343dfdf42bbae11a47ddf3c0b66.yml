@@ -1,0 +1,35 @@
+_id: req_892ba343dfdf42bbae11a47ddf3c0b66
+type: Request
+parentId: wrk_1f5a1b381dd24507a87022144a2426cf
+modified: 1673637663964
+created: 1673549265256
+url: "{{ _.env }}/api/nodes"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"child.filter": "subType==Airing and (customAttributes.startDateTime <= 2023-01-12T01:30:00Z and customAttributes.endDateTime > 2023-01-12T01:00:00Z)",
+    	"filter": "subType==Channel and customAttributes.guideCCID==6233",
+    	"ignore_publication_window": true,
+    	"max_child_recursion_depth": 1,
+    	"sort_by": [
+    		"child.customAttributes.startDateTime"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0bea779f3ab248b0a95ff86ab34461d2
+authentication: {}
+metaSortKey: -1673549265256
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

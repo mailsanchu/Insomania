@@ -1,0 +1,14 @@
+_id: env_cs-catalogservice-edge-442-5-2.awsw1.cld.dtvops.net
+type: Environment
+parentId: env_bbe70e3270368aa0197f796de396884c69708dde
+modified: 1673549637516
+created: 1673549637516
+name: p-442-5-2
+data:
+  env: https://cs-catalogservice-edge-442-5-2.awsw1.cld.dtvops.net
+dataPropertyOrder:
+  "&":
+    - env
+color: "#04FA70"
+isPrivate: false
+metaSortKey: 1
