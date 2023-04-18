@@ -1,0 +1,44 @@
+_id: req_ace8ffc5966a4d5b8ebcf510a76a900b
+type: Request
+parentId: wrk_1f5a1b381dd24507a87022144a2426cf
+modified: 1681823276782
+created: 1675278357131
+url: "{{ _.env }}/api/nodes"
+name: OTT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"filter": "customAttributes.superseriesAbstractionId==9cc78106-256b-17e6-c841-c2d56ddd5718 and subType==Edit and customAttributes.seasonNumber==50 and customAttributes.hasConsumables==true",
+    	"filter.top_level_omission_policy": "OMIT_IF_NO_PARENTS_OR_NO_CHILDREN",
+    	"offset": 0,
+    	"max_child_recursion_depth": 2,
+    	"limit": "2000, child.64",
+    	"child.filter.omit_parent_if_no_match": true,
+    	"sort_by": [
+    		"customAttributes.episodeNumber.DESC",
+    		"customAttributes.metadataLanguage.ASC",
+    		"customAttributes.originalAirDate.DESC"
+    	],
+    	"child.filter": "((subType == Airing and customAttributes.endDateTime>=2023-04-14T17:30:19Z)) and (customAttributes.allowedLocations=isEmptyArray=(true) or customAttributes.allowedLocations=containsSome=('508','0','RegC Pittsburgh PA','STOHD1','Sports Time Ohio Spot SPOT','OV2 RegC Pittsburgh PA','ATTSN PITT OTT SPOT','OV Pittsburgh PA 508','BTN4OF','BG10O2H','BTN3OF','BTN2OF','STOHD','BGTN4HD','BGTN3HD','BIG10HD','BS GreatLakes OOM B/O','OVTelemundoEast','OV MeTV Allowed SPOT','OV Pittsburgh PA DMA 508','OV Telemundo East 123022 SPOT','OV Telemundo East 072222 SPOT'))"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0bea779f3ab248b0a95ff86ab34461d2
+  - id: pair_77be3fb480cf4d268385db3cc1a08f56
+    name: Caller-Name
+    value: Sanchu
+    description: ""
+authentication: {}
+metaSortKey: -1673549265206
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

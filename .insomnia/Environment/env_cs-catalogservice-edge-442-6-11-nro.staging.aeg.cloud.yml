@@ -1,0 +1,14 @@
+_id: env_cs-catalogservice-edge-442-6-11-nro.staging.aeg.cloud
+type: Environment
+parentId: env_bbe70e3270368aa0197f796de396884c69708dde
+modified: 1681342338350
+created: 1681342338350
+name: s-442-6-11-nro
+data:
+  env: https://cs-catalogservice-edge-442-6-11-nro.staging.aeg.cloud
+dataPropertyOrder:
+  "&":
+    - env
+color: "#0429FA"
+isPrivate: false
+metaSortKey: 2

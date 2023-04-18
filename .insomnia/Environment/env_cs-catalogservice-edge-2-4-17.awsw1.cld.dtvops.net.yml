@@ -1,0 +1,14 @@
+_id: env_cs-catalogservice-edge-2-4-17.awsw1.cld.dtvops.net
+type: Environment
+parentId: env_bbe70e3270368aa0197f796de396884c69708dde
+modified: 1681342335924
+created: 1681342335924
+name: p-2-4-17X
+data:
+  env: https://cs-catalogservice-edge-2-4-17.awsw1.cld.dtvops.net
+dataPropertyOrder:
+  "&":
+    - env
+color: "#04FA70"
+isPrivate: false
+metaSortKey: 1

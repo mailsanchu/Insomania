@@ -1,39 +1,29 @@
-_id: req_892ba343dfdf42bbae11a47ddf3c0b66
+_id: req_dc2525ac01d1451fb77a22f03d3e4717
 type: Request
 parentId: wrk_1f5a1b381dd24507a87022144a2426cf
-modified: 1681823311548
-created: 1673549265256
-url: "{{ _.env }}/api/nodes"
-name: DTVE
+modified: 1680080790930
+created: 1678961758691
+url: http://localhost:8444/api/pinned_version
+name: PINNing
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"ids": [
-    		"75ed16fe-4ab8-31b7-e261-74309e2ae157"
-    	],
-    	"max_child_recursion_depth": 1,
-    	"sort_by": [
-    		"child.customAttributes.startDateTime.ASC"
-    	],
-    	"fields": [
-    		"child.customAttributes.startDateTime",
-    		"child.customAttributes.endDateTime"
-    	]
+    	"version": "20230328181310001"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_0bea779f3ab248b0a95ff86ab34461d2
-  - id: pair_03bc43d0669b48d7b1369afb1af83883
+  - id: pair_77be3fb480cf4d268385db3cc1a08f56
     name: Caller-Name
-    value: Me
+    value: Sanchu
     description: ""
 authentication: {}
-metaSortKey: -1673549265256
+metaSortKey: -1673549265156
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

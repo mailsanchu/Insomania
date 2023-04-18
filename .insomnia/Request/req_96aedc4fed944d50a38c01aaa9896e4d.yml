@@ -1,0 +1,30 @@
+_id: req_96aedc4fed944d50a38c01aaa9896e4d
+type: Request
+parentId: wrk_1f5a1b381dd24507a87022144a2426cf
+modified: 1680080800149
+created: 1678963810518
+url: http://localhost:8444/api/pinned_version
+name: Delete PINNing
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0bea779f3ab248b0a95ff86ab34461d2
+  - id: pair_77be3fb480cf4d268385db3cc1a08f56
+    name: Caller-Name
+    value: Sanchu
+    description: ""
+authentication: {}
+metaSortKey: -1673549265106
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

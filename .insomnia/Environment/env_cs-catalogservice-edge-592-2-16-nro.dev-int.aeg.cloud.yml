@@ -1,0 +1,14 @@
+_id: env_cs-catalogservice-edge-592-2-16-nro.dev-int.aeg.cloud
+type: Environment
+parentId: env_bbe70e3270368aa0197f796de396884c69708dde
+modified: 1681342335577
+created: 1681342335577
+name: d-592-2-16-nro
+data:
+  env: https://cs-catalogservice-edge-592-2-16-nro.dev-int.aeg.cloud
+dataPropertyOrder:
+  "&":
+    - env
+color: "#FA2204"
+isPrivate: false
+metaSortKey: 3
